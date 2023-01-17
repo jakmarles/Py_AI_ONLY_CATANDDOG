@@ -36,16 +36,14 @@ move "fingerprint.pb" and "keras_metadata.pb" and "saved_model.pb" into the fold
 move "variables.data-00000-of-00001" and "variables.index" into the folder "variables"
 
 ```
-# If you want to remake the module you will need datasets 
-
-Setting up the datasets to remake the module
+# If you want to remake the module you will to remove the module folder and get datasets 
 ```bash
-remove "module" folder
 download the Kaggle Cats and Dogs Dataset - https://www.microsoft.com/en-us/download/details.aspx?id=54765
-make a new folder and name it "PetImages"
-# REMOVE THE FOLLOWING FILES THEY ARE CORRUPTED
-cats/666.jpg
-dogs/11702.jpg
+unzip the PetImages
+```
+REMOVE THE FOLLOWING FILES THEY ARE CORRUPTED
+PetImages/cats/666.jpg
+PetImages/dogs/11702.jpg
 ```
 
 # Run the application.
