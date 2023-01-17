@@ -28,6 +28,15 @@ pip install -r .\requirements.txt
 ```
 download the model - due to its size you will have to download it yourself https://drive.google.com/file/d/1Sr7HghzbAOnAZkw8vzsqo1gLMyyIE7XN/view?usp=share_link
 Make a new folder and name it model and another 2 folders in it named "variables" and "assets"
+download the Kaggle Cats and Dogs Dataset - https://www.microsoft.com/en-us/download/details.aspx?id=54765
+make a new folder and name it "PetImages"
+
+# REMOVE THE FOLLOWING FILES THEY ARE CORRUPTED
+cats/666.jpg
+dogs/11702.jpg
+
+
+
 
 ```bash
 move "fingerprint.pb" and "keras_metadata.pb" and "saved_model.pb" into the folder "model"
