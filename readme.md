@@ -41,7 +41,7 @@ move "variables.data-00000-of-00001" and "variables.index" into the folder "vari
 download the Kaggle Cats and Dogs Dataset - https://www.microsoft.com/en-us/download/details.aspx?id=54765
 unzip the PetImages
 ```
-REMOVE THE FOLLOWING FILES THEY ARE CORRUPTED
+# REMOVE THE FOLLOWING FILES THEY ARE CORRUPTED
 ```bash
 PetImages/cats/666.jpg
 PetImages/dogs/11702.jpg
