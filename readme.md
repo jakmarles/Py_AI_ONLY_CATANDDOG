@@ -43,6 +43,8 @@ move "variables.data-00000-of-00001" and "variables.index" into the folder "vari
 ```bash
 download the Kaggle Cats and Dogs Dataset - https://www.microsoft.com/en-us/download/details.aspx?id=54765
 unzip the PetImages
+and run the app.py
+py app.py
 ```
 # REMOVE THE FOLLOWING FILES THEY ARE CORRUPTED
 ```bash
