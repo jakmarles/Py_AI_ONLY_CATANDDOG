@@ -28,6 +28,7 @@ pip install -r .\requirements.txt
 ```
 download the model - due to its size you will have to download it yourself https://drive.google.com/file/d/1Sr7HghzbAOnAZkw8vzsqo1gLMyyIE7XN/view?usp=share_link
 Make a new folder and name it model and another 2 folders in it named "variables" and "assets"
+This step isnt necessary you can instead make a new one following the " REMAKE THE MODULE "
 # Setting up the module
 ```bash
 move "fingerprint.pb" and "keras_metadata.pb" and "saved_model.pb" into the folder "model"
@@ -36,7 +37,8 @@ move "fingerprint.pb" and "keras_metadata.pb" and "saved_model.pb" into the fold
 move "variables.data-00000-of-00001" and "variables.index" into the folder "variables"
 
 ```
-# If you want to remake the module you will to remove the module folder and get datasets 
+# REMAKE THE MODULE
+## If you want to remake the module you will to remove the module folder and get datasets 
 ```bash
 download the Kaggle Cats and Dogs Dataset - https://www.microsoft.com/en-us/download/details.aspx?id=54765
 unzip the PetImages
