@@ -12,6 +12,9 @@ The user submit an image to predict.py, This uses the PIL library to open the im
 
 
 IN ORDER FOR IT TO WORK YOU WILL NEED python version 3.10.0
+```bash
+https://www.python.org/downloads/release/python-3100/
+```
 Create Virtual Environment.
 
 ```bash
