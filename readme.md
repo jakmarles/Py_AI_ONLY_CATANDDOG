@@ -28,7 +28,8 @@ pip install -r .\requirements.txt
 ```
 download the model - due to its size you will have to download it yourself https://drive.google.com/file/d/1Sr7HghzbAOnAZkw8vzsqo1gLMyyIE7XN/view?usp=share_link
 Make a new folder and name it model and another 2 folders in it named "variables" and "assets"
-This step isnt necessary you can instead make a new one following the " REMAKE THE MODULE "
+This step isnt necessary
+you can instead make a new one following the " # REMAKE THE MODULE "
 # Setting up the module
 ```bash
 move "fingerprint.pb" and "keras_metadata.pb" and "saved_model.pb" into the folder "model"
